@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin: 0;
+@font-face {
+    font-family: notoSansReg;
+    src: url(../public/NotoSans-Regular.ttf);
+}
 
+*{
+    font-family: "notoSansReg",sans-serif;
 }
