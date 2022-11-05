@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Starbucks Coffee </title>
     <link rel="stylesheet" href="../dist/output.css"> 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  />
 </head>
 <body>
     <!-- NAV BAR -->
@@ -18,7 +22,7 @@
                 <li class="px-4 tracking-wide">GIFT CARDS</li>
             </ul>
         </div>
-        <div>
+        <div class="hidden lg:inline">
             <ul class="flex flex-row items-center">
                 <svg aria-hidden="true" class="valign-middle pr-2" focusable="false" preserveAspectRatio="xMidYMid meet" style="width:32px;height:32px;overflow:visible;fill:currentColor" viewBox="0 0 24 24"><path d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5"></path></svg>
                 <li class="font-semibold text-sm pr-10 tracking-wide">Find a store</li>
@@ -27,6 +31,174 @@
                 <button class="text-sm font-semibold px-4 py-2 outline outline-1  rounded-full bg-black text-white ">Join now </button>
             </ul>
         </div>
+    </div>
+
+    <div class="border-hidden my-1"></div>
+
+    <div class="xl:mx-10"></div>
+      <!-- HERO-1 -->
+      <div class="flex flex-col lg:flex-row bg-starGreen">
+        <div class="flex-none md:w-6/12 relative">
+          <div
+            class="absolute w-full h-full bg-[url('/public/images/1.webp')] bg-contain lg:bg-cover lg:bg-center"
+          ></div>
+        </div>
+        <img src="/public/images/1.webp" class="lg:hidden" />
+        <div>
+          <div class="p-10 sm:p-24 mx-12 text-center">
+            <p class="text-[50px] font-bold">Sign up for Starbucks® Rewards</p>
+            <p class="text-[24px]">
+              Starting 4/22, get 25 Stars when you bring your clean, reusable
+              cup into the café. Stars can quickly add up to Rewards.*
+            </p>
+            <button
+              class="hover:bg-slate-50 border-solid border-black border-2 rounded-full px-5 py-1 mt-2 text-center font-bold"
+            >
+              Join now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- HERO-2 -->
+      <div class="flex flex-col lg:flex-row bg-starGreen mt-8">
+        <div>
+          <div class="p-10 sm:p-24 mx-12 text-center">
+            <p class="text-[50px] font-bold">Planet-positive tips</p>
+            <p class="text-[24px]">
+              April is earth month, but our commitment to reducing our
+              environmental impact is year round. Try these tips on your next
+              Starbucks visit.
+            </p>
+            <button
+              class="hover:bg-slate-50 border-solid border-black border-2 rounded-full px-5 py-1 mt-2 text-center font-bold"
+            >
+              Learn how
+            </button>
+          </div>
+        </div>
+
+        <div class="flex-none md:w-6/12 relative">
+          <div
+            class="absolute w-full h-full bg-[url('/public/images/2.webp')] bg-contain lg:bg-cover lg:bg-center"
+          ></div>
+        </div>
+        <img src="/public/images/2.webp" class="lg:hidden" />
+      </div>
+
+      <!-- HERO-3 -->
+      <div class="flex flex-col lg:flex-row bg-darkGreen mt-8 text-white">
+        <div class="flex-none md:w-6/12 relative">
+          <div
+            class="absolute w-full h-full bg-[url('/public/images/3.jpg')] bg-contain lg:bg-cover lg:bg-center"
+          ></div>
+        </div>
+        <img src="/public/images/3.jpg" class="lg:hidden" />
+        <div>
+          <div class="p-10 sm:p-24 mx-12 text-center">
+            <p class="text-[50px] font-bold">Iced shaken awakening</p>
+            <p class="text-[24px]">
+              Introducing our new Iced Toasted Vanilla Oatmilk Shaken Espresso
+              with rich, creamy layers and nondairy goodness.
+            </p>
+            <button
+              class="hover:bg-slate-50 hover:text-black border-solid border-white border-2 rounded-full px-5 py-1 mt-2 text-center font-bold"
+            >
+              Order now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- HERO-4 -->
+      <div class="flex flex-col lg:flex-row bg-darkGreen text-white mt-8">
+        <div>
+          <div class="p-10 sm:p-24 mx-12 text-center">
+            <p class="text-[50px] font-bold">Taste of tomorrow</p>
+            <p class="text-[24px]">
+              The trailblazing Starbucks Odyssey Blend™ boldly envisions a more
+              sustainable future for the coffee industry.
+            </p>
+            <button
+              class="hover:bg-slate-50 hover:text-black border-solid border-white border-2 rounded-full px-5 py-1 mt-2 text-center font-bold"
+            >
+              Learn how
+            </button>
+          </div>
+        </div>
+
+        <div class="flex-none md:w-6/12 relative">
+          <div
+            class="absolute w-full h-full bg-[url('/public/images/4.jpg')] bg-contain lg:bg-cover lg:bg-center"
+          ></div>
+        </div>
+        <img src="/public/images/4.jpg" class="lg:hidden" />
+      </div>
+    </div>
+    <div class="border my-6"></div>
+    <div class="xl:mx-40">
+      <footer>
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 mx-10 md:mr-44 text-lightText"
+        >
+          <ul>
+            <p class="font-semibold text-titleText">About us</p>
+            <li class="py-2">Our Company</li>
+            <li class="py-2">Our Coffee</li>
+            <li class="py-2">Stories and News</li>
+            <li class="py-2">Customer Service</li>
+          </ul>
+
+          <ul>
+            <p class="font-semibold text-titleText">Careers</p>
+            <li class="py-2">Culture and Values</li>
+            <li class="py-2">Inclusion, Diversity and Equity</li>
+            <li class="py-2">College Achievement</li>
+            <li class="py-2">U.S Careers</li>
+            <li class="py-2">Internation Careers</li>
+          </ul>
+
+          <ul>
+            <p class="font-semibold text-titleText">Social Impact</p>
+            <li class="py-2">People</li>
+            <li class="py-2">Planet</li>
+            <li class="py-2">Environmental and Social Impact Reporting</li>
+          </ul>
+
+          <ul>
+            <p class="font-semibold text-titleText">Order and Pickup</p>
+            <li class="py-2">Order on the App</li>
+            <li class="py-2">Order on the Web</li>
+            <li class="py-2">Delivery</li>
+            <li class="py-2">Order and Pickup</li>
+            <li class="py-2">Explore and Find Coffee for Home</li>
+          </ul>
+        </div>
+
+        <div class="border my-6"></div>
+
+        <div class="text-titleText mt-8 flex justify-evenly w-60">
+          <i class="fa-brands fa-facebook fa-2xl"></i>
+          <i class="fa-brands fa-pinterest fa-2xl"></i>
+          <i class="fa-brands fa-instagram-square fa-2xl"></i>
+          <i class="fa-brands fa-youtube fa-2xl"></i>
+          <i class="fa-brands fa-twitter fa-2xl"></i>
+        </div>
+
+        <div class="flex justify-evenly w-fit mt-8">
+          <p>Privacy Policy</p>
+          <p class="mx-3">|</p>
+          <p>Term of Use</p>
+          <p class="mx-3">|</p>
+          <p>CA Supply Chain Act</p>
+          <p class="mx-3">|</p>
+          <p>Cookie Preferences</p>
+        </div>
+
+        <p class="text-lightText my-4">
+          © 2022 Starbucks Coffee Company. All rights reserved.
+        </p>
+      </footer>
     </div>
     
 </body>
