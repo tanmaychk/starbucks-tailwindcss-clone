@@ -7,5 +7,5 @@
 
 ## Screenshots
 
-![App Screenshot](Screenshot Capture - 2022-11-05 - 10-44-05.png)
+![App Screenshot](https://github.com/tanmaychk/starbucks-tailwindcss-clone/blob/2f6fcae1f22f4e757e518f2107a6fdc31687e55c/Screenshot%20Capture%20-%202022-11-05%20-%2010-44-05.png)
 
